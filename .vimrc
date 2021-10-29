@@ -2,6 +2,12 @@
 
 syntax on
 
+" possible options: https://vimhelp.org/options.txt.html#options.txt
+
+" set this option in order to get syntax highlighting for Typescript work.
+" reference: https://jameschambers.co.uk/vim-typescript-slow
+set re=0
+
 " line number and relative line number
 set nu
 set rnu
